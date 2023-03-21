@@ -1,8 +1,8 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast: B } = require('ranvier');
-const Combat = require('../../bundle-example-combat/lib/Combat');
+const { Broadcast: B } = require('whispermud');
+const Combat = require('../../whispermud-combat/lib/Combat');
 
 module.exports = {
   aliases: [ 'stats' ],

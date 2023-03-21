@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B } = require('whispermud');
 
 /* To implement a modal command (specifically via the example-input-events bundle)
  * have your command's function return a value. That value will put the player in that

@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast } = require('ranvier');
+const { Broadcast } = require('whispermud');
 
 /**
  * Flush the command queue

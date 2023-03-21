@@ -9,9 +9,9 @@ const {
   ItemType,
   Logger,
   Player
-} = require('ranvier');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+} = require('whispermud');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
   usage: "look [thing]",

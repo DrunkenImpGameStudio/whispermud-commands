@@ -1,9 +1,9 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
-const { CommandParser } = require('../../bundle-example-lib/lib/CommandParser');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const { Broadcast: B } = require('whispermud');
+const { CommandParser } = require('../../whispermud-lib/lib/CommandParser');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
   aliases: ['close', 'lock', 'unlock'],

@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B } = require('whispermud');
 
 /**
  * See brief details of npcs/players in nearby rooms

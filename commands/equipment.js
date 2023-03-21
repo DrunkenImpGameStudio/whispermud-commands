@@ -1,7 +1,7 @@
 'use strict';
 
-const { Broadcast } = require('ranvier');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const { Broadcast } = require('whispermud');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
   aliases: ['worn'],

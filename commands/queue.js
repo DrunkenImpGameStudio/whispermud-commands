@@ -1,7 +1,7 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast } = require('ranvier');
+const { Broadcast } = require('whispermud');
 
 /**
  * View command queue

@@ -1,7 +1,7 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast } = require('ranvier');
+const { Broadcast } = require('whispermud');
 
 function sayAtColumns (source, strings, numCols) {
   //Build a 2D map of strings by col/row

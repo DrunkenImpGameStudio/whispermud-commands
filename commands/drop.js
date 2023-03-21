@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast } = require('ranvier');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const { Broadcast } = require('whispermud');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
   usage: 'drop <item>',

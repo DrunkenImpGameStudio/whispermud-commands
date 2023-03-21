@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast, ItemType } = require('ranvier');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const { Broadcast, ItemType } = require('whispermud');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
   aliases: [ 'unwield', 'unequip' ],

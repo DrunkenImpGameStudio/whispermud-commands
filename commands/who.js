@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('ranvier');
+const { Broadcast: B } = require('whispermud');
 
 module.exports = {
   usage: 'who',

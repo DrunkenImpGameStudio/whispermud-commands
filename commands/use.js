@@ -1,12 +1,12 @@
 'use strict';
 
 const humanize = (sec) => { return require('humanize-duration')(sec, { round: true }); };
-const { Broadcast, Logger, SkillErrors } = require('ranvier');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
+const { Broadcast, Logger, SkillErrors } = require('whispermud');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 /**
- * Command for items with `usable` behavior. See bundles/ranvier-areas/areas/limbo/items.yml for
+ * Command for items with `usable` behavior. See bundles/whispermud-areas/areas/limbo/items.yml for
  * example behavior implementation
  */
 module.exports = {

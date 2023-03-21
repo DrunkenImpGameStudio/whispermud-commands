@@ -1,7 +1,7 @@
 'use strict';
 
-const { Broadcast } = require('ranvier');
-const LevelUtil = require('../../bundle-example-lib/lib/LevelUtil');
+const { Broadcast } = require('whispermud');
+const LevelUtil = require('../../whispermud-lib/lib/LevelUtil');
 
 module.exports = {
   aliases: [ 'level', 'experience' ],

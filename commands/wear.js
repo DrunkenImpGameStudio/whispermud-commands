@@ -1,11 +1,11 @@
 'use strict';
 
-const Ranvier = require('ranvier');
+const Ranvier = require('whispermud');
 const { Broadcast, Logger } = Ranvier;
 const { EquipSlotTakenError } = Ranvier.EquipErrors;
 const say = Broadcast.sayAt;
-const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
-const ArgParser = require('../../bundle-example-lib/lib/ArgParser');
+const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
+const ArgParser = require('../../whispermud-lib/lib/ArgParser');
 
 module.exports = {
   aliases: [ 'wield' ],
