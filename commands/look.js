@@ -9,7 +9,7 @@ const {
   ItemType,
   Logger,
   Player
-} = require('whispermud');
+} = require('whispermud-core');
 const ArgParser = require('../../whispermud-lib/lib/ArgParser');
 const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 

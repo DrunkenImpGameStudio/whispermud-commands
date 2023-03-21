@@ -1,7 +1,7 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const { Broadcast: B } = require('whispermud');
+const { Broadcast: B } = require('whispermud-core');
 const Combat = require('../../whispermud-combat/lib/Combat');
 
 module.exports = {

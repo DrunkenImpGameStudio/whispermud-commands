@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast } = require('whispermud');
+const { Broadcast } = require('whispermud-core');
 
 /**
  * Flush the command queue

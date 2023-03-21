@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B } = require('whispermud');
+const { Broadcast: B } = require('whispermud-core');
 
 /**
  * See brief details of npcs/players in nearby rooms

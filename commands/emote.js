@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast } = require('whispermud');
+const { Broadcast } = require('whispermud-core');
 const ArgParser = require('../../whispermud-lib/lib/ArgParser');
 
 module.exports = {

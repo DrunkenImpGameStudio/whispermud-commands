@@ -1,7 +1,7 @@
 'use strict';
 
 const humanize = (sec) => { return require('humanize-duration')(sec, { round: true }); };
-const { Broadcast, Logger, SkillErrors } = require('whispermud');
+const { Broadcast, Logger, SkillErrors } = require('whispermud-core');
 const ArgParser = require('../../whispermud-lib/lib/ArgParser');
 const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 

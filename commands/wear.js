@@ -1,6 +1,6 @@
 'use strict';
 
-const Ranvier = require('whispermud');
+const Ranvier = require('whispermud-core');
 const { Broadcast, Logger } = Ranvier;
 const { EquipSlotTakenError } = Ranvier.EquipErrors;
 const say = Broadcast.sayAt;

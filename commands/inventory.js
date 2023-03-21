@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast } = require('whispermud');
+const { Broadcast } = require('whispermud-core');
 const ItemUtil = require('../../whispermud-lib/lib/ItemUtil');
 
 module.exports = {
