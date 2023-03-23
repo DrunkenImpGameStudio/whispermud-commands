@@ -1,8 +1,0 @@
-{
-  "name": "whispermud-commands",
-  "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    "humanize-duration": "^3.14.0"
-  }
-}
